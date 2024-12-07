@@ -1,7 +1,5 @@
 import React, { useState, useEffect} from 'react';
 import axios from 'axios';
-import {format} from "date-fns";
-import {fr} from "date-fns/locale";
 
 function DailyMeteo({city}){
     const [forecastData, setForecastData] =  useState(null);
