@@ -1,0 +1,15 @@
+@use "banner.scss";
+@use "currentMeteo.scss";
+@use "dailyMeteo.scss";
+@use "responsive415.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #9CCFFF;
+}

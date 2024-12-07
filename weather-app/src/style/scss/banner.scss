@@ -1,0 +1,27 @@
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchBarContainer{
+    margin: 25px;
+
+    .searchBar{
+        height: 30px;
+        width: 500px;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px grey;
+        font-size: 24px;
+    }
+}
+
+.currentDateContainer{
+    margin: 25px;
+
+    .currentDate{
+        color: white;
+    }
+}

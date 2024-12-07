@@ -1,0 +1,29 @@
+.currentMeteoContainer {
+  max-width: 330px;
+}
+.currentMeteoContainer .currentMeteo {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-left: 25px;
+}
+.currentMeteoContainer .currentMeteo .infoContainer .location, .currentMeteoContainer .currentMeteo .infoContainer .temperature, .currentMeteoContainer .currentMeteo .infoContainer .condition {
+  color: white;
+  margin-bottom: 10px;
+}
+.currentMeteoContainer .currentMeteo .infoContainer .location {
+  font-size: 32px;
+}
+.currentMeteoContainer .currentMeteo .infoContainer .temperature {
+  font-size: 42px;
+  font-weight: 600;
+}
+.currentMeteoContainer .currentMeteo .infoContainer .condition {
+  font-size: 20px;
+}
+.currentMeteoContainer .currentMeteo .iconContainer .icon {
+  height: 200px;
+  width: 200px;
+}
+
+/*# sourceMappingURL=currentMeteo.css.map */

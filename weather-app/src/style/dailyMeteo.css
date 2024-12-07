@@ -1,0 +1,33 @@
+.dailyMeteoContainer {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
+.dailyMeteoContainer .dailyMeteoList {
+  display: flex;
+  gap: 20px;
+}
+.dailyMeteoContainer .dailyMeteoList .meteoDay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px grey;
+  background-color: white;
+}
+.dailyMeteoContainer .dailyMeteoList .meteoDay h3 {
+  margin: 0 50px;
+}
+.dailyMeteoContainer .dailyMeteoList .meteoDay img {
+  height: 150px;
+  width: 150px;
+  margin-left: 20px;
+}
+.dailyMeteoContainer .dailyMeteoList .meteoDay p {
+  margin: 10px 0 0 10px;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=dailyMeteo.css.map */

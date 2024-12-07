@@ -1,0 +1,161 @@
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchBarContainer {
+  margin: 25px;
+}
+.searchBarContainer .searchBar {
+  height: 30px;
+  width: 500px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px grey;
+  font-size: 24px;
+}
+
+.currentDateContainer {
+  margin: 25px;
+}
+.currentDateContainer .currentDate {
+  color: white;
+}
+
+.currentMeteoContainer {
+  max-width: 330px;
+}
+.currentMeteoContainer .currentMeteo {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-left: 25px;
+}
+.currentMeteoContainer .currentMeteo .infoContainer .location, .currentMeteoContainer .currentMeteo .infoContainer .temperature, .currentMeteoContainer .currentMeteo .infoContainer .condition {
+  color: white;
+  margin-bottom: 10px;
+}
+.currentMeteoContainer .currentMeteo .infoContainer .location {
+  font-size: 32px;
+}
+.currentMeteoContainer .currentMeteo .infoContainer .temperature {
+  font-size: 42px;
+  font-weight: 600;
+}
+.currentMeteoContainer .currentMeteo .infoContainer .condition {
+  font-size: 20px;
+}
+.currentMeteoContainer .currentMeteo .iconContainer .icon {
+  height: 200px;
+  width: 200px;
+}
+
+.dailyMeteoContainer {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
+.dailyMeteoContainer .dailyMeteoList {
+  display: flex;
+  gap: 20px;
+}
+.dailyMeteoContainer .dailyMeteoList .meteoDay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px grey;
+  background-color: white;
+}
+.dailyMeteoContainer .dailyMeteoList .meteoDay h3 {
+  margin: 0 50px;
+}
+.dailyMeteoContainer .dailyMeteoList .meteoDay img {
+  height: 150px;
+  width: 150px;
+  margin-left: 20px;
+}
+.dailyMeteoContainer .dailyMeteoList .meteoDay p {
+  margin: 10px 0 0 10px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 415px) {
+  .banner {
+    flex-direction: column;
+    justify-content: center;
+    width: 380px;
+  }
+  .banner .searchBarContainer {
+    margin: 15px 0;
+    display: flex;
+    justify-content: none;
+  }
+  .banner .searchBarContainer .searchBar {
+    height: 30px;
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+    font-size: 24px;
+  }
+  .currentDateContainer {
+    margin: 0;
+  }
+  .currentMeteoContainer {
+    max-width: 330px;
+  }
+  .currentMeteoContainer .currentMeteo {
+    margin-top: 20px;
+  }
+  .currentMeteoContainer .currentMeteo .iconContainer .icon {
+    height: 150px;
+    width: 150px;
+  }
+  .dailyMeteoContainer {
+    position: relative;
+    top: 50px;
+    bottom: 0;
+    left: 15px;
+    max-width: 380px;
+    padding-bottom: 20px;
+  }
+  .dailyMeteoContainer .dailyMeteoList {
+    flex-direction: column;
+  }
+  .dailyMeteoContainer .dailyMeteoList .meteoDay {
+    flex-direction: row;
+    height: 50px;
+    width: 345px;
+  }
+  .dailyMeteoContainer .dailyMeteoList .meteoDay h3 {
+    margin: auto 5px;
+    font-size: 14px;
+  }
+  .dailyMeteoContainer .dailyMeteoList .meteoDay img {
+    height: 45px;
+    width: 45px;
+    margin: 0 20px;
+  }
+  .dailyMeteoContainer .dailyMeteoList .meteoDay p {
+    margin: auto 3px;
+    font-size: 16px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #9CCFFF;
+}
+
+/*# sourceMappingURL=style.css.map */
