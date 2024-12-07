@@ -1,6 +1,3 @@
-.currentMeteoContainer {
-  max-width: 330px;
-}
 .currentMeteoContainer .currentMeteo {
   display: flex;
   align-items: center;
