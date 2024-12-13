@@ -1,6 +1,7 @@
 @use "banner.scss";
 @use "currentMeteo.scss";
 @use "dailyMeteo.scss";
+@use "weatherCharts.scss";
 @use "responsive415.scss";
 
 *{
@@ -11,5 +12,6 @@
 }
 
 body{
-    background-color: #9CCFFF;
+    background: rgb(0,179,247);
+    background: linear-gradient(90deg, rgba(0,179,247,1) 0%, rgba(0,48,57,1) 50%);
 }

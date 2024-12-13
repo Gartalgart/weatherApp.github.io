@@ -4,9 +4,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.6.0",
-    "@fortawesome/free-brands-svg-icons": "^6.6.0",
-    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/fontawesome-svg-core": "^6.7.1",
+    "@fortawesome/free-brands-svg-icons": "^6.7.1",
+    "@fortawesome/free-regular-svg-icons": "^6.7.1",
+    "@fortawesome/free-solid-svg-icons": "^6.7.1",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -17,10 +18,12 @@
     "react-dom": "^17.0.1",
     "react-router-dom": "^6.15.0",
     "react-scripts": "^5.0.1",
+    "recharts": "^2.14.1",
     "web-vitals": "^0.2.4"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/preset-env": "^7.16.0",
     "@babel/preset-react": "^7.16.0",
     "gh-pages": "^6.2.0",
@@ -37,6 +40,10 @@
     "watch-sass": "sass --watch src/style/scss:src/style",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gartalgart/weatherApp.github.io.git"
   },
   "eslintConfig": {
     "extends": [

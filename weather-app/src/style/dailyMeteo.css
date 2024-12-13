@@ -1,7 +1,7 @@
 .dailyMeteoContainer {
   position: absolute;
   bottom: 50px;
-  left: 50px;
+  left: 25vh;
 }
 .dailyMeteoContainer .dailyMeteoList {
   display: flex;
@@ -17,8 +17,9 @@
   box-shadow: 3px 3px 10px grey;
   background-color: white;
 }
-.dailyMeteoContainer .dailyMeteoList .meteoDay h3 {
-  margin: 0 50px;
+.dailyMeteoContainer .dailyMeteoList .meteoDay .dailyDate {
+  margin: 0 auto;
+  color: rgb(0, 48, 57);
 }
 .dailyMeteoContainer .dailyMeteoList .meteoDay img {
   height: 150px;

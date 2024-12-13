@@ -1,4 +1,7 @@
 @media screen and (max-width: 415px){
+    body{
+        background: linear-gradient(180deg, rgba(0,179,247,1) 0%, rgba(0,48,57,1) 50%) !important;
+    }
     .banner{
         flex-direction: column;
         justify-content: center;
@@ -30,6 +33,11 @@
 
         .currentMeteo{
             margin-top: 20px;
+            margin-left: 0;
+
+            .infoContainer{
+                margin-left: 20px;
+            }
 
             .iconContainer{
                 .icon{
@@ -37,6 +45,11 @@
                     width: 150px;
                 }
             }
+        }
+
+        .tableContainer{
+            flex-direction: column;
+            margin-left: 50px !important;
         }
     }
     
@@ -57,8 +70,8 @@
                 height: 50px;
                 width: 345px;
 
-                h3{
-                    margin: auto 5px;
+                .dailyDate{
+                    margin: auto;
                     font-size: 14px;
                 }
 
@@ -76,4 +89,26 @@
         }
     }
     
+    .chartsContainer{
+        position: relative;
+        bottom: 20px;
+        left: 20px;
+        padding-bottom: 100px;
+
+        .charts{
+            margin-bottom: 0;
+
+            .chart{
+                width: 330px !important;
+            }
+        }
+
+        h3{
+            margin-bottom: 0;
+        }
+
+        h2{
+            font-size: 20px;
+        }
+    }
 }

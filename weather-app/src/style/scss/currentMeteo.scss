@@ -1,11 +1,15 @@
 .currentMeteoContainer{
     .currentMeteo{
         display: flex;
-        align-items: center;
+        flex-direction: column;
+        align-items: flex-start;
         gap: 30px;
-        margin-left: 25px;
+        margin-left: 50px;
 
         .infoContainer{
+            display: flex;
+            margin-left: 10vh;
+
             .location, .temperature, .condition{
                 color: white;
                 margin-bottom: 10px;
@@ -21,14 +25,38 @@
             .condition{
                 font-size: 20px;
             }
-        }
 
-        .iconContainer{
-            .icon{
-                height: 200px;
-                width: 200px;
+            .iconContainer{
+                .icon{
+                    height: 200px;
+                    width: 200px;
+                }
             }
         }
+
+        .tableContainer{
+            display: flex;
+            gap: 20px;
+            margin-left: 10vh;
+
+            .ligneContainer{
+                display: flex;
+                justify-content: space-between;
+                width: 275px;
+                height: 30px;
+                padding: 2px;
+                margin-bottom: 7px;
+                border-bottom: 1px solid black;
+                color: white;
+
+                .hook{
+                    display: flex;
+                    gap: 5px;
+                }
+            }
+        }
+
+        
     }
 }
 

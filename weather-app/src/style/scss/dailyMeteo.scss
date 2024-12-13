@@ -1,7 +1,7 @@
 .dailyMeteoContainer{
     position: absolute;
     bottom: 50px;
-    left: 50px;
+    left: 25vh;
 
     .dailyMeteoList{
         display: flex;
@@ -17,8 +17,9 @@
             box-shadow: 3px 3px 10px grey;
             background-color: white;
 
-            h3{
-                margin: 0 50px;
+            .dailyDate{
+                margin: 0 auto;
+                color: rgba(0,48,57,1);
             }
 
             img{

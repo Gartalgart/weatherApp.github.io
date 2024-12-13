@@ -1,0 +1,16 @@
+--2024-12-11 08:50:25--  https://discord.com/api/download?platform=linux
+Résolution de discord.com (discord.com)… 162.159.135.232, 162.159.128.233, 162.159.136.232, ...
+Connexion à discord.com (discord.com)|162.159.135.232|:443… connecté.
+requête HTTP transmise, en attente de la réponse… 302 Found
+Emplacement : https://stable.dl2.discordapp.net/apps/linux/0.0.77/discord-0.0.77.deb [suivant]
+--2024-12-11 08:50:26--  https://stable.dl2.discordapp.net/apps/linux/0.0.77/discord-0.0.77.deb
+Résolution de stable.dl2.discordapp.net (stable.dl2.discordapp.net)… 34.126.226.51
+Connexion à stable.dl2.discordapp.net (stable.dl2.discordapp.net)|34.126.226.51|:443… connecté.
+requête HTTP transmise, en attente de la réponse… 200 OK
+Taille : 101305330 (97M) [application/vnd.debian.binary-package]
+Enregistre : ‘download?platform=linux’
+
+download?platform=l   0%[                    ]       0  --.-KB/s               download?platform=l   5%[>                   ]   5,39M  26,9MB/s               download?platform=l  12%[=>                  ]  12,09M  30,2MB/s               download?platform=l  23%[===>                ]  22,31M  36,4MB/s               download?platform=l  28%[====>               ]  28,01M  33,2MB/s               download?platform=l  39%[======>             ]  37,70M  36,1MB/s               download?platform=l  46%[========>           ]  45,05M  36,2MB/s               download?platform=l  60%[===========>        ]  58,16M  40,2MB/s               download?platform=l  72%[=============>      ]  70,01M  42,1MB/s               download?platform=l  84%[===============>    ]  81,44M  43,6MB/s               download?platform=l  97%[==================> ]  94,36M  45,5MB/s               download?platform=l 100%[===================>]  96,61M  45,8MB/s    ds 2,1s    
+
+2024-12-11 08:50:29 (45,8 MB/s) - ‘download?platform=linux’ enregistré [101305330/101305330]
+

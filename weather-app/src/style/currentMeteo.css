@@ -1,8 +1,13 @@
 .currentMeteoContainer .currentMeteo {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   gap: 30px;
-  margin-left: 25px;
+  margin-left: 50px;
+}
+.currentMeteoContainer .currentMeteo .infoContainer {
+  display: flex;
+  margin-left: 10vh;
 }
 .currentMeteoContainer .currentMeteo .infoContainer .location, .currentMeteoContainer .currentMeteo .infoContainer .temperature, .currentMeteoContainer .currentMeteo .infoContainer .condition {
   color: white;
@@ -18,9 +23,28 @@
 .currentMeteoContainer .currentMeteo .infoContainer .condition {
   font-size: 20px;
 }
-.currentMeteoContainer .currentMeteo .iconContainer .icon {
+.currentMeteoContainer .currentMeteo .infoContainer .iconContainer .icon {
   height: 200px;
   width: 200px;
+}
+.currentMeteoContainer .currentMeteo .tableContainer {
+  display: flex;
+  gap: 20px;
+  margin-left: 10vh;
+}
+.currentMeteoContainer .currentMeteo .tableContainer .ligneContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 275px;
+  height: 30px;
+  padding: 2px;
+  margin-bottom: 7px;
+  border-bottom: 1px solid black;
+  color: white;
+}
+.currentMeteoContainer .currentMeteo .tableContainer .ligneContainer .hook {
+  display: flex;
+  gap: 5px;
 }
 
 /*# sourceMappingURL=currentMeteo.css.map */
